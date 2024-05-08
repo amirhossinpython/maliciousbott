@@ -14,7 +14,8 @@ link = input("enter link:")
 
 guid = bot.join_chat(link)["group"]["group_guid"]  
 
-bot.update_profile(first_name='Hacked by Amir Hossein',last_name="Hacked by Amir Hossein",username='hackedbyamirhossin')
+bot.update_profile(first_name='Hacked by Amir Hossein',last_name="Hacked by Amir Hossein",username='hackedbyamirhossin',bio='Hacked by Amir Hossein')
+
 bot.send_text(guid,"هک شدم توسط امیرحسین")  
 
 print(guid)
